@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Popup Title</h1>
+<div mat-dialog-content>
+  <p>This is the content of the popup.</p>
+</div>
+<div (paste)="onPaste($event)" tabindex="0">
+    <canvas #canvasElement></canvas>
+    <p>Press Ctrl+V to paste the image here.</p>
+  </div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onClose()">Close</button>
+</div>
