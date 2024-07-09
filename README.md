@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.18.
 
+## Steps to Run this project 
+1. Clone this project to local
+2. Open Node.JS Command Prompt
+3. Go to Project folder like if you have folder name 'Image-Paste' Then run command CD image-Paste
+4. run command to install angular version to project
+     npm install @angular/cli@12.2.18
+5. Once it install run command to run application
+     ng serve
+6. Navigate to `http://localhost:4200/`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
